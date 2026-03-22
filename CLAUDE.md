@@ -79,7 +79,7 @@
 
 
 ##指导编码
-
--前端代码使用CLAUDE.frontend.md做指导 @import ./CLAUDE.frontend.md
-
--后端代码使用CLAUDE.backend.md做指导 @import ./CLAUDE.backend.md
+@import ./CLAUDE.frontend.md
+-前端代码使用CLAUDE.frontend.md做指导
+@import ./CLAUDE.backend.md
+-后端代码使用CLAUDE.backend.md做指导
