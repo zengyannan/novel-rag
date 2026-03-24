@@ -51,9 +51,27 @@ public class ChapterIndex {
     private String content;
 
     /**
+     * 来源URL
+     */
+    @Column(name = "source_url", length = 1024)
+    private String sourceUrl;
+
+    /**
+     * 来源站点
+     */
+    @Column(name = "source_site", length = 50)
+    private String sourceSite;
+
+    /**
      * 字数
      */
     private Integer wordCount;
+
+    /**
+     * 抓取时间
+     */
+    @Column(name = "crawl_time")
+    private LocalDateTime crawlTime;
 
     /**
      * 创建时间
